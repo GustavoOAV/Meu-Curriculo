@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  background: linear-gradient(135deg, #242424, #505050); /* degrade azul moderno */
+  color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* deixa alinhado à esquerda */
+}
+
+.nome {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cargo {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 5px;
+  opacity: 0.9;
+}

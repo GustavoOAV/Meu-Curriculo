@@ -1,0 +1,36 @@
+.caixa {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.titulo {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0077cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icone {
+  font-size: 14px;
+}
+
+/* Área do conteúdo (animação suave) */
+.conteudo {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.conteudo.aberto {
+  max-height: 500px; /* valor alto o suficiente */
+}
+
+.conteudo-texto {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}

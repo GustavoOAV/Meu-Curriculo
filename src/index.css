@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Garante que nada ultrapasse a tela */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* esconde scroll horizontal */
+}
+
+/* Para prevenir elementos estourando largura */
+* {
+  box-sizing: border-box;
+}

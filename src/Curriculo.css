@@ -1,0 +1,29 @@
+.curriculo-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Área do Corpo */
+.corpo-container {
+  flex: 2;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .curriculo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .corpo-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
