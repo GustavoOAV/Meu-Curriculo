@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background: linear-gradient(135deg, #242424, #505050); /* degrade azul moderno */
+  background: linear-gradient(135deg, #242424, #505050); 
   color: white;
   padding: 20px 40px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -11,7 +11,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* deixa alinhado à esquerda */
+  align-items: flex-start; 
 }
 
 .nome {

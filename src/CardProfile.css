@@ -1,74 +1,103 @@
 .card-container {
   width: 300px;
-  height: 500px; 
+  height: auto;   /* deixa crescer com o conteúdo */
+  max-height: none; /* remove limite de corte */
+  overflow: visible; /* scroll interno desnecessário */
   border: 2px solid black;
   padding: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
   margin-top: 50px;
-  margin-left: 50px;
   border-radius: 20px;
-  flex-shrink: 0; 
+  flex-shrink: 0;
+  align-self: flex-start; /* não estica junto com o corpo */
 }
+
+.card-container:hover {
+  transform: translateY(-5px);
+}
+
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  border: 2px solid #161616;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
-  margin: 20px 0;
-  word-break: break-word; 
-  overflow-wrap: anywhere; 
+  gap: 10px;
+  margin: 15px 0 25px;
 }
 
 .contact-info p {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 0;
-  font-size: 0.95rem; 
+  font-size: 0.95rem;
+  color: #333;
 }
 
 .icon {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  color: #0077cc;
 }
 
 .contact-info a {
   text-decoration: none;
-  color: #0077cc; 
-  font-weight: bold;
+  color: #0077cc;
+  font-weight: 500;
 }
 
 .contact-info a:hover {
+  color: #005999;
   text-decoration: underline;
 }
 
 .titleC {
-  margin-top: 20px;
-  font-size: 1.5rem;
+  margin-top: 15px;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: left;
+  color: #0077cc;
 }
 
-.skills-list {
-  list-style: disc;
-  padding-left: 20px;
+.skills-list,
+.sites-list {
+  list-style: none;
+  padding-left: 0;
   text-align: left;
   margin-top: 10px;
 }
 
+.skills-list li,
+.sites-list li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #444;
+}
+
+.sites-list a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+}
+
+.sites-list a:hover {
+  color: #005999;
+}
 
 @media (max-width: 768px) {
   .card-container {
     width: 90%;
-    margin-top: 20px;
+    margin: 20px auto;
   }
 }
