@@ -13,9 +13,6 @@
   align-self: flex-start; /* não estica junto com o corpo */
 }
 
-.card-container:hover {
-  transform: translateY(-5px);
-}
 
 .profile-pic {
   width: 150px;

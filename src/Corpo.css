@@ -1,13 +1,14 @@
 .caixa {
   border-bottom: 1px solid #ccc;
   padding: 10px;
+  
 }
 
 .titulo {
   font-size: 18px;
   font-weight: bold;
   color: #0077cc;
-  margin-bottom: 20px; /* Espaço maior abaixo do título */
+  margin-bottom: 20px; 
   cursor: pointer;
 }
 

@@ -1,10 +1,15 @@
 import {
+  FaCss3Alt,
   FaEnvelope,
   FaGithub,
   FaGlobe,
+  FaHtml5,
+  FaJs,
   FaLinkedin,
   FaPhone,
+  FaReact,
 } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 import "./CardProfile.css";
 
 export default function CardPerfil() {
@@ -53,8 +58,12 @@ export default function CardPerfil() {
 
       <h2 className="titleC">Idiomas</h2>
       <ul className="skills-list">
-        <li><strong>Inglês:</strong> Intermediário</li>
-        <li><strong>Espanhol:</strong> Básico</li>
+        <li>
+          <strong>Inglês:</strong> Intermediário
+        </li>
+        <li>
+          <strong>Espanhol:</strong> Básico
+        </li>
       </ul>
 
       <h2 className="titleC">Meus Sites</h2>
@@ -68,6 +77,33 @@ export default function CardPerfil() {
           >
             Voar Me Poem de Pé
           </a>
+        </li>
+      </ul>
+      <h2 className="titleC">Competências</h2>
+      <ul className="skills-list">
+        <li>
+          <FaHtml5 className="icon" />
+          HTML
+        </li>
+        <li>
+          <FaCss3Alt className="icon" />
+          CSS
+        </li>
+        <li>
+          <FaJs className="icon" />
+          JavaScript
+        </li>
+        <li>
+          <FaReact className="icon" />
+          React
+        </li>
+        <li>
+          <SiMysql className="icon" />
+          MySQL
+        </li>
+        <li>
+          <FaGithub className="icon" />
+          GitHub
         </li>
       </ul>
     </div>
