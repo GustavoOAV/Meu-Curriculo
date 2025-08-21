@@ -9,6 +9,7 @@ import {
   FaPhone,
   FaReact,
 } from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import "./CardProfile.css";
 
@@ -52,6 +53,16 @@ export default function CardPerfil() {
             rel="noopener noreferrer"
           >
             GitHub
+          </a>
+        </p>
+        <p>
+            <FaFilePdf className="icon" />
+         <a
+            href="/curriculum Gustavo.O.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          Curriculo
           </a>
         </p>
       </div>
