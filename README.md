@@ -64,8 +64,3 @@ src/
 
 ---
 
-## Licença
-
-Este projeto está sob licença [MIT](LICENSE).
-
----
