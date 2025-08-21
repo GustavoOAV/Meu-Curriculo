@@ -7,7 +7,6 @@
   padding: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
-  margin-top: 50px;
   border-radius: 20px;
   flex-shrink: 0;
   align-self: flex-start; /* não estica junto com o corpo */
