@@ -20,7 +20,7 @@ Clone este repositório:
 npm install
 
 Instale as dependências:
-npm start
+npm start        
 
 Estrutura de Pastas:
 src/
